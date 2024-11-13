@@ -1,0 +1,37 @@
+.servicio-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30rem;
+    height: 60rem;
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .servicio-card .card-img-top {
+    height: 190px;
+    object-fit: cover;
+  }
+  
+  .servicio-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .servicio-card .card-title {
+    font-size: 1.2em;
+    font-family: "Segoe UI", sans-serif;
+    text-align: left;
+  }
+  
+  .servicio-card .price {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .servicio-card .btn-container {
+    text-align: center;
+  }
+  
